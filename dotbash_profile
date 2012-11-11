@@ -1,0 +1,4 @@
+PS1='\[\033[0;37m\]\u@\h:\w\$ \[\033[0;0m\]'
+
+alias ls='/bin/ls -G'
+alias dir='/bin/ls'
