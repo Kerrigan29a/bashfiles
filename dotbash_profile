@@ -1,4 +1,9 @@
 PS1='\[\033[0;37m\]\u@\h:\w\$ \[\033[0;0m\]'
 
-alias ls='/bin/ls -G'
+if [ $(uname) = "Darwin" ];
+then
+    alias ls='/bin/ls -G'
+else
+    alias ls='/bin/ls --color'
+fi
 alias dir='/bin/ls'
