@@ -1,5 +1,5 @@
 # Ubuntu style prompt
-PS1='\[\033[0;37m\]\u@\h:\w\$ \[\033[0;0m\]'
+#PS1='\[\033[0;37m\]\u@\h:\w\$ \[\033[0;0m\]'
 # Multi-line prompt with last command status based color, jobs and command number
 PS1="\n\$(if [[ \$? == 0 ]]; then echo \"\[\033[1;34m\]\"; else echo \"\[\033[1;31m\]\"; fi)[\t] (jobs:\j) \u@\h:\w\n\#:\! \$> \[\033[0m\]"
 
